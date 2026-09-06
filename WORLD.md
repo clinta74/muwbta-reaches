@@ -1,13 +1,13 @@
 # The Reaches
 
-The world this game is set in. **Authored as of 2026-08-15** — the files are in `content/`, and
-where they and this document diverged, the files won (§10.3).
+The world this game is set in. **Authored as of 2026-08-15**, and the bundles beside this document
+are the record: where they and this document have diverged, the files won.
 
-Everything above the `canon:end` marker is the builder assist's canon, and is about the world and
-how to write it, not about the engine that runs it. `tools/merge-bundles.cs --canon` writes it into
-the Reaches' configuration on the way to an import, the builder can edit it there, and
-`tools/sync-canon.cs` writes an edit back here. `PLAN.md` says what the engine does; nothing above
-the marker needs to.
+Everything above the `canon:end` marker is the builder assist's canon — what is true here and how
+to write it, not how the engine that runs it works. `merge-bundles --canon` writes this text into
+the Reaches' configuration on the way to an import, a builder can edit it in the panel, and
+`sync-canon` writes such an edit back here. The engine is a separate repository and documents
+itself; nothing above the marker needs to.
 
 ---
 
