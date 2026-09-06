@@ -1,7 +1,10 @@
-# Authored content
+# The Reaches
 
-`WorldBundle` JSON for the Reaches. The design these transcribe is
-[docs/WORLD.md](../docs/WORLD.md).
+One world, authored for the muwbta engine. `WorldBundle` JSON, plus the canon it transcribes
+([WORLD.md](WORLD.md)) and the storyline companion to it ([STORY.md](STORY.md)).
+
+This is content, not an engine. It needs [muwbta](https://github.com/clinta74/muwbta) to merge,
+check, render or import any of it — see [Applying them](#applying-them).
 
 **The whole world is here**: five realms, eighteen zones, 238 rooms, 59 mob templates, 93 items,
 100 spawners and all five acts.
@@ -53,13 +56,13 @@ not work and walking is the only way home.
 Merge these and the engine's own bundles into one, check it, then import it once:
 
 ```
-dotnet run tools/merge-bundles.cs content shipped -o build/the-reaches.json --canon docs/WORLD.md --into the-reaches
+dotnet run tools/merge-bundles.cs <reaches> <muwbta>/shipped -o build/the-reaches.json --canon <reaches>/WORLD.md --into the-reaches
 dotnet run tools/check-bundle.cs build/the-reaches.json
 POST /api/builder/import?dryRun=true    # what would happen; changes nothing
 POST /api/builder/import                # do it
 ```
 
-`--canon` writes the canon half of `docs/WORLD.md` into the named configuration as it merges, cut
+`--canon` writes the canon half of `WORLD.md` into the named configuration as it merges, cut
 at the marker and normalised the way the assist reads it. The document is the reviewed source and
 the merged bundle is how it reaches a server; the server embeds no canon of its own, so a
 configuration that arrives without one tells the assist there is no world description.
