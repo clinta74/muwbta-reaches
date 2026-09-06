@@ -6,8 +6,8 @@ One world, authored for the muwbta engine. `WorldBundle` JSON, plus the canon it
 This is content, not an engine. It needs [muwbta](https://github.com/clinta74/muwbta) to merge,
 check, render or import any of it — see [Applying them](#applying-them).
 
-**The whole world is here**: five realms, eighteen zones, 238 rooms, 59 mob templates, 93 items,
-100 spawners and all five acts.
+**The whole world is here**: five realms, eighteen zones, 238 rooms, 59 mob templates, 95 items,
+101 spawners, five drawn maps and all five acts.
 
 **Merge them and import once** — see [Applying them](#applying-them). Importing the six files one at
 a time works, but it has to be done in realm order (`ossara`, `grask`, `azhen`, `nemhal`,
@@ -53,14 +53,24 @@ not work and walking is the only way home.
 
 ## Applying them
 
-Merge these and the engine's own bundles into one, check it, then import it once:
+The tools live in the engine repository, so both are checked out and the commands are run from
+there. Merge these files and the engine's own bundles into one, check it, then import it once:
 
 ```
-dotnet run tools/merge-bundles.cs <reaches> <muwbta>/shipped -o build/the-reaches.json --canon <reaches>/WORLD.md --into the-reaches
+dotnet run tools/merge-bundles.cs ../muwbta-reaches shipped -o build/the-reaches.json --canon ../muwbta-reaches/WORLD.md --into the-reaches
 dotnet run tools/check-bundle.cs build/the-reaches.json
 POST /api/builder/import?dryRun=true    # what would happen; changes nothing
 POST /api/builder/import                # do it
 ```
+
+**No merged bundle is committed here, on purpose.** It would be two megabytes duplicating the six
+files beside it — most of that the inlined map sheets — and it would go stale the moment one of
+them was edited, silently, because nothing checks a generated file against its sources. The merge
+is one command and it is the command above.
+
+The map sheets in `map/` are folded in by that merge: they are content and they reach a server the
+same way the rooms do, so a world arrives with the drawing of itself rather than with whatever
+drawing the server happened to be built with.
 
 `--canon` writes the canon half of `WORLD.md` into the named configuration as it merges, cut
 at the marker and normalised the way the assist reads it. The document is the reviewed source and
