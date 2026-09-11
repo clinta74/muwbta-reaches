@@ -1,6 +1,6 @@
 {
-  "formatVersion": 18,
-  "exportedAt": "2026-09-11T00:38:56.0536439+00:00",
+  "formatVersion": 19,
+  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
   "scope": {
     "kind": "zone",
     "key": "ossara.gatetown"
@@ -859,7 +859,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "bread",
@@ -879,7 +881,9 @@
       "isLightSource": false,
       "foodValue": 40,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-brass-knuckle",
@@ -905,7 +909,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-empty-cup",
@@ -925,7 +931,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-hand-axe",
@@ -951,7 +959,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-hearth-cup",
@@ -971,7 +981,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-leather-cap",
@@ -995,7 +1007,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-leather-gloves",
@@ -1019,7 +1033,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-leather-jerkin",
@@ -1043,7 +1059,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-leather-leggings",
@@ -1067,7 +1085,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-luck-token",
@@ -1091,7 +1111,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-plank-shield",
@@ -1116,7 +1138,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-short-blade",
@@ -1143,7 +1167,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-walking-boots",
@@ -1167,7 +1193,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-walking-staff",
@@ -1192,7 +1220,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "rope",
@@ -1212,7 +1242,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "torch",
@@ -1234,7 +1266,9 @@
       "isLightSource": true,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "waterskin",
@@ -1254,7 +1288,169 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": 50,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
+    },
+    {
+      "key": "ossara-borrowed-billhook",
+      "name": "a borrowed billhook",
+      "description": "A hooked blade on a short haft, lent out at the gate to anybody who walks in with nothing. The terraces want it back eventually. Nobody has ever asked.",
+      "icon": "/",
+      "slots": [
+        "MainHand"
+      ],
+      "isTwoHanded": false,
+      "weight": 900,
+      "baseValue": 0,
+      "baseStats": {
+        "damageMax": 3,
+        "damageMin": 1
+      },
+      "attackDelayPulses": null,
+      "attackVerb": "hack",
+      "isQuestItem": false,
+      "isLore": false,
+      "isNoDrop": true,
+      "isLightSource": false,
+      "foodValue": null,
+      "drinkValue": null,
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
+    },
+    {
+      "key": "ossara-festival-bun",
+      "name": "a festival bun",
+      "description": "Ilvaro's clergy bake too many for every festival, and there is always a festival. This one has a raisin in it, probably.",
+      "icon": "b",
+      "slots": [],
+      "isTwoHanded": false,
+      "weight": 150,
+      "baseValue": 0,
+      "baseStats": {},
+      "attackDelayPulses": null,
+      "attackVerb": null,
+      "isQuestItem": false,
+      "isLore": false,
+      "isNoDrop": true,
+      "isLightSource": false,
+      "foodValue": 25,
+      "drinkValue": null,
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
+    },
+    {
+      "key": "ossara-gate-gourd",
+      "name": "a gourd of well water",
+      "description": "Filled at the gate yard well and handed over with the bun. Somebody will tell you it is lucky water. It is water.",
+      "icon": "w",
+      "slots": [],
+      "isTwoHanded": false,
+      "weight": 300,
+      "baseValue": 0,
+      "baseStats": {},
+      "attackDelayPulses": null,
+      "attackVerb": null,
+      "isQuestItem": false,
+      "isLore": false,
+      "isNoDrop": true,
+      "isLightSource": false,
+      "foodValue": null,
+      "drinkValue": 40,
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
+    },
+    {
+      "key": "ossara-green-draught",
+      "name": "a green draught",
+      "description": "Something green in a stoppered clay bottle, brewed up the hill and sold at the road. Tastes of cut grass and a little of regret. It works.",
+      "icon": "!",
+      "slots": [],
+      "isTwoHanded": false,
+      "weight": 150,
+      "baseValue": 12,
+      "baseStats": {},
+      "attackDelayPulses": null,
+      "attackVerb": null,
+      "isQuestItem": false,
+      "isLore": false,
+      "isNoDrop": false,
+      "isLightSource": false,
+      "foodValue": null,
+      "drinkValue": 5,
+      "paths": [],
+      "useEffects": [
+        {
+          "key": "heal.restore",
+          "params": {
+            "healPercent": "35"
+          }
+        }
+      ],
+      "useCooldownPulses": null
+    },
+    {
+      "key": "ossara-hill-tonic",
+      "name": "a flask of hill tonic",
+      "description": "Honey, vinegar and something off the hedges, in a flask the width of your palm. Carters swear by it for the long pull up the terrace road.",
+      "icon": "!",
+      "slots": [],
+      "isTwoHanded": false,
+      "weight": 150,
+      "baseValue": 10,
+      "baseStats": {},
+      "attackDelayPulses": null,
+      "attackVerb": null,
+      "isQuestItem": false,
+      "isLore": false,
+      "isNoDrop": false,
+      "isLightSource": false,
+      "foodValue": null,
+      "drinkValue": 5,
+      "paths": [],
+      "useEffects": [
+        {
+          "key": "resource.restore",
+          "params": {
+            "percent": "40",
+            "resource": "Stamina"
+          }
+        }
+      ],
+      "useCooldownPulses": null
+    },
+    {
+      "key": "ossara-shrine-water",
+      "name": "a vial of shrine water",
+      "description": "Drawn from the basin at the gate shrine and bottled by Hesper, who will not say whether the coin in the bottom is meant to be there. It clears the head.",
+      "icon": "!",
+      "slots": [],
+      "isTwoHanded": false,
+      "weight": 100,
+      "baseValue": 10,
+      "baseStats": {},
+      "attackDelayPulses": null,
+      "attackVerb": null,
+      "isQuestItem": false,
+      "isLore": false,
+      "isNoDrop": false,
+      "isLightSource": false,
+      "foodValue": null,
+      "drinkValue": 5,
+      "paths": [],
+      "useEffects": [
+        {
+          "key": "resource.restore",
+          "params": {
+            "percent": "40",
+            "resource": "Focus"
+          }
+        }
+      ],
+      "useCooldownPulses": null
     }
   ],
   "mobTemplates": [
@@ -1510,7 +1706,10 @@
           "bread",
           "waterskin",
           "bandage-roll",
-          "torch"
+          "torch",
+          "ossara-green-draught",
+          "ossara-hill-tonic",
+          "ossara-shrine-water"
         ],
         "emotes": [
           {
@@ -3717,6 +3916,20 @@
         "azhen",
         "nemhal",
         "the-unlit"
+      ],
+      "startingKit": [
+        {
+          "itemKey": "ossara-borrowed-billhook",
+          "count": 1
+        },
+        {
+          "itemKey": "ossara-festival-bun",
+          "count": 2
+        },
+        {
+          "itemKey": "ossara-gate-gourd",
+          "count": 1
+        }
       ]
     }
   ]

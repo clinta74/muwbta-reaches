@@ -1,6 +1,6 @@
 {
-  "formatVersion": 18,
-  "exportedAt": "2026-09-11T00:38:56.0536439+00:00",
+  "formatVersion": 19,
+  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
   "scope": {
     "kind": "world",
     "key": "ossara"
@@ -2524,7 +2524,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "bread",
@@ -2544,7 +2546,9 @@
       "isLightSource": false,
       "foodValue": 40,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-adept-1",
@@ -2572,7 +2576,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-ember",
@@ -2592,7 +2598,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-1",
@@ -2620,7 +2628,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-1",
@@ -2649,7 +2659,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-1",
@@ -2677,7 +2689,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-brass-knuckle",
@@ -2703,7 +2717,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-empty-cup",
@@ -2723,7 +2739,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-fallen-marker",
@@ -2743,7 +2761,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-gate-shard",
@@ -2763,7 +2783,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-hand-axe",
@@ -2789,7 +2811,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-hearth-cup",
@@ -2809,7 +2833,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-keepsake",
@@ -2829,7 +2855,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-leather-cap",
@@ -2853,7 +2881,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-leather-gloves",
@@ -2877,7 +2907,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-leather-jerkin",
@@ -2901,7 +2933,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-leather-leggings",
@@ -2925,7 +2959,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-luck-token",
@@ -2949,7 +2985,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-plank-shield",
@@ -2974,7 +3012,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-short-blade",
@@ -3001,7 +3041,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-walking-boots",
@@ -3025,7 +3067,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "ossara-walking-staff",
@@ -3050,7 +3094,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "rope",
@@ -3070,7 +3116,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "torch",
@@ -3092,7 +3140,9 @@
       "isLightSource": true,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "waterskin",
@@ -3112,7 +3162,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": 50,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     }
   ],
   "mobTemplates": [
@@ -3586,7 +3638,10 @@
           "bread",
           "waterskin",
           "bandage-roll",
-          "torch"
+          "torch",
+          "ossara-green-draught",
+          "ossara-hill-tonic",
+          "ossara-shrine-water"
         ],
         "emotes": [
           {
@@ -6520,6 +6575,20 @@
         "azhen",
         "nemhal",
         "the-unlit"
+      ],
+      "startingKit": [
+        {
+          "itemKey": "ossara-borrowed-billhook",
+          "count": 1
+        },
+        {
+          "itemKey": "ossara-festival-bun",
+          "count": 2
+        },
+        {
+          "itemKey": "ossara-gate-gourd",
+          "count": 1
+        }
       ]
     }
   ]

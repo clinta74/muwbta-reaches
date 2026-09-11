@@ -1,6 +1,6 @@
 {
-  "formatVersion": 18,
-  "exportedAt": "2026-09-11T00:09:16.9732166+00:00",
+  "formatVersion": 19,
+  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
   "scope": {
     "kind": "world",
     "key": "grask"
@@ -2383,7 +2383,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "bread",
@@ -2403,7 +2405,9 @@
       "isLightSource": false,
       "foodValue": 40,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-adept-1",
@@ -2431,7 +2435,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-adept-2",
@@ -2459,7 +2465,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-1",
@@ -2487,7 +2495,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-2",
@@ -2515,7 +2525,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-1",
@@ -2544,7 +2556,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-2",
@@ -2573,7 +2587,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-1",
@@ -2601,7 +2617,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-2",
@@ -2629,7 +2647,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-claim-cleaver",
@@ -2656,7 +2676,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-claim-shield",
@@ -2681,7 +2703,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-crew-tag",
@@ -2701,7 +2725,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-dredge-hook",
@@ -2728,7 +2754,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-first-mark",
@@ -2748,7 +2776,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-ledger-leaf",
@@ -2768,7 +2798,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-long-pick",
@@ -2793,7 +2825,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-marsh-boots",
@@ -2817,7 +2851,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-owing-token",
@@ -2841,7 +2877,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-pit-lamp",
@@ -2865,7 +2903,9 @@
       "isLightSource": true,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-plated-coat",
@@ -2889,7 +2929,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-riggers-gloves",
@@ -2913,7 +2955,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-studded-breeches",
@@ -2937,7 +2981,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "grask-tallow-cap",
@@ -2961,7 +3007,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "rope",
@@ -2981,7 +3029,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "torch",
@@ -3003,7 +3053,9 @@
       "isLightSource": true,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "waterskin",
@@ -3023,7 +3075,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": 50,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     }
   ],
   "mobTemplates": [
@@ -6095,6 +6149,20 @@
         "azhen",
         "nemhal",
         "the-unlit"
+      ],
+      "startingKit": [
+        {
+          "itemKey": "ossara-borrowed-billhook",
+          "count": 1
+        },
+        {
+          "itemKey": "ossara-festival-bun",
+          "count": 2
+        },
+        {
+          "itemKey": "ossara-gate-gourd",
+          "count": 1
+        }
       ]
     }
   ]

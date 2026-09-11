@@ -1,6 +1,6 @@
 {
-  "formatVersion": 18,
-  "exportedAt": "2026-09-11T00:09:16.9732166+00:00",
+  "formatVersion": 19,
+  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
   "scope": {
     "kind": "world",
     "key": "the-unlit"
@@ -957,7 +957,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-adept-5",
@@ -985,7 +987,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-4",
@@ -1013,7 +1017,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-5",
@@ -1041,7 +1047,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-4",
@@ -1070,7 +1078,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-5",
@@ -1099,7 +1109,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-4",
@@ -1127,7 +1139,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-5",
@@ -1155,7 +1169,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "unlit-answer",
@@ -1175,7 +1191,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "unlit-binding-spike",
@@ -1201,7 +1219,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "unlit-carried-thing",
@@ -1221,7 +1241,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "unlit-long-blade",
@@ -1248,7 +1270,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "unlit-standing-hammer",
@@ -1273,7 +1297,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "unlit-worn-marker",
@@ -1293,7 +1319,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     }
   ],
   "mobTemplates": [
@@ -3829,6 +3857,20 @@
         "azhen",
         "nemhal",
         "the-unlit"
+      ],
+      "startingKit": [
+        {
+          "itemKey": "ossara-borrowed-billhook",
+          "count": 1
+        },
+        {
+          "itemKey": "ossara-festival-bun",
+          "count": 2
+        },
+        {
+          "itemKey": "ossara-gate-gourd",
+          "count": 1
+        }
       ]
     }
   ]

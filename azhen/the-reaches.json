@@ -1,6 +1,6 @@
 {
-  "formatVersion": 18,
-  "exportedAt": "2026-09-11T00:09:16.9732166+00:00",
+  "formatVersion": 19,
+  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
   "scope": {
     "kind": "world",
     "key": "azhen"
@@ -2619,7 +2619,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-counterweight-maul",
@@ -2644,7 +2646,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-drive-cog",
@@ -2664,7 +2668,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-gate-stylus",
@@ -2691,7 +2697,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-lens-blank",
@@ -2711,7 +2719,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-lens-hood",
@@ -2735,7 +2745,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-measuring-rod",
@@ -2761,7 +2773,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-orrery-guard",
@@ -2786,7 +2800,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-plated-skirt",
@@ -2810,7 +2826,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-reading-stone",
@@ -2834,7 +2852,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-scaled-mantle",
@@ -2858,7 +2878,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-silent-plate",
@@ -2878,7 +2900,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "azhen-soled-sandals",
@@ -2902,7 +2926,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "bandage-roll",
@@ -2922,7 +2948,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-adept-2",
@@ -2950,7 +2978,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-adept-3",
@@ -2978,7 +3008,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-2",
@@ -3006,7 +3038,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-3",
@@ -3034,7 +3068,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-2",
@@ -3063,7 +3099,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-3",
@@ -3092,7 +3130,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-2",
@@ -3120,7 +3160,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-3",
@@ -3148,7 +3190,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "rope",
@@ -3168,7 +3212,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "torch",
@@ -3190,7 +3236,9 @@
       "isLightSource": true,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     }
   ],
   "mobTemplates": [
@@ -6034,6 +6082,20 @@
         "azhen",
         "nemhal",
         "the-unlit"
+      ],
+      "startingKit": [
+        {
+          "itemKey": "ossara-borrowed-billhook",
+          "count": 1
+        },
+        {
+          "itemKey": "ossara-festival-bun",
+          "count": 2
+        },
+        {
+          "itemKey": "ossara-gate-gourd",
+          "count": 1
+        }
       ]
     }
   ]

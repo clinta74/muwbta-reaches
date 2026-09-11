@@ -1,6 +1,6 @@
 {
-  "formatVersion": 18,
-  "exportedAt": "2026-09-11T00:09:16.9732166+00:00",
+  "formatVersion": 19,
+  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
   "scope": {
     "kind": "world",
     "key": "nemhal"
@@ -2699,7 +2699,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "bread",
@@ -2719,7 +2721,9 @@
       "isLightSource": false,
       "foodValue": 40,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-adept-3",
@@ -2747,7 +2751,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-adept-4",
@@ -2775,7 +2781,9 @@
       "drinkValue": null,
       "paths": [
         "Adept"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-3",
@@ -2803,7 +2811,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-hallow-4",
@@ -2831,7 +2841,9 @@
       "drinkValue": null,
       "paths": [
         "Hallow"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-3",
@@ -2860,7 +2872,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-temper-4",
@@ -2889,7 +2903,9 @@
       "drinkValue": null,
       "paths": [
         "Temper"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-3",
@@ -2917,7 +2933,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "epic-warden-4",
@@ -2945,7 +2963,9 @@
       "drinkValue": null,
       "paths": [
         "Warden"
-      ]
+      ],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-bearers-gauntlets",
@@ -2969,7 +2989,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-bier-shield",
@@ -2994,7 +3016,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-god-shroud",
@@ -3014,7 +3038,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-keening-blade",
@@ -3041,7 +3067,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-kneeling-greaves",
@@ -3065,7 +3093,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-office-page",
@@ -3085,7 +3115,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-processional-boots",
@@ -3109,7 +3141,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-relic-harness",
@@ -3133,7 +3167,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-standing-maul",
@@ -3158,7 +3194,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-unlit-lamp",
@@ -3182,7 +3220,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-vigil-helm",
@@ -3206,7 +3246,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-vigil-spear",
@@ -3232,7 +3274,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "nemhal-vigil-token",
@@ -3252,7 +3296,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "rope",
@@ -3272,7 +3318,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "torch",
@@ -3294,7 +3342,9 @@
       "isLightSource": true,
       "foodValue": null,
       "drinkValue": null,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     },
     {
       "key": "waterskin",
@@ -3314,7 +3364,9 @@
       "isLightSource": false,
       "foodValue": null,
       "drinkValue": 50,
-      "paths": []
+      "paths": [],
+      "useEffects": [],
+      "useCooldownPulses": null
     }
   ],
   "mobTemplates": [
@@ -6193,6 +6245,20 @@
         "azhen",
         "nemhal",
         "the-unlit"
+      ],
+      "startingKit": [
+        {
+          "itemKey": "ossara-borrowed-billhook",
+          "count": 1
+        },
+        {
+          "itemKey": "ossara-festival-bun",
+          "count": 2
+        },
+        {
+          "itemKey": "ossara-gate-gourd",
+          "count": 1
+        }
       ]
     }
   ]
