@@ -1,6 +1,6 @@
 {
   "formatVersion": 18,
-  "exportedAt": "2026-08-22T22:19:02.4110828+00:00",
+  "exportedAt": "2026-09-11T00:09:16.9732166+00:00",
   "scope": {
     "kind": "world",
     "key": "azhen"
@@ -11,7 +11,9 @@
       "name": "Azhen",
       "description": "Opened, measured, and abandoned. Azhimet's people built the gates and left their instruments running.",
       "sortOrder": 3,
-      "flags": {},
+      "flags": {
+        "climate": "arid"
+      },
       "multipliers": {
         "strength": 3,
         "health": 1,
@@ -48,6 +50,7 @@
       "minLevel": 24,
       "maxLevel": 26,
       "flags": {
+        "indoors": true,
         "respawn": true,
         "peaceful": true
       },
@@ -731,7 +734,9 @@
       "zoneKey": "azhen.serrivet",
       "title": "The Tension House",
       "description": "A shed of screws and springs where the cable tension is kept, with a dial for every line and every dial in its band.\n\nSomebody adjusted these. There is no wear on the handles.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "░░░░░░░░░░░░░░░░░░░░░",
         "░░░░░░▓░▓░░░░░░░░░░░░",
@@ -5805,8 +5810,8 @@
     {
       "key": "a3-1-blanks-and-cogs",
       "zoneKey": "azhen.serrivet",
-      "name": "Blanks and Cogs",
-      "summary": "Bring Vane six lens blanks and six drive cogs.",
+      "name": "Cogs for the Housing",
+      "summary": "Bring Vane six drive cogs from the instrument yards.",
       "description": "The instrument at Thessivar can be restarted. Vane needs parts, and he needs them from the yards rather than from the camp's catalogue, because the catalogue has none left.",
       "giverMobKey": "azhen-instrument-scholar",
       "turninMobKey": "azhen-instrument-scholar",
@@ -5822,10 +5827,10 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "Vane has a housing open on the bench. 'It is not broken. Nothing here is broken. It is short of <parts>, because somebody carried them off, and I would like to put some back.'",
+        "giverOffer": "Vane has a housing open on the bench. 'It is not broken. Nothing here is broken. It is short of <drive cogs>, because somebody carried them off, and I would like to put some back.'",
         "turninReady": "He fits one without measuring it and it seats with a click. 'You understand what that means,' he says. 'Made to a tolerance, four hundred years ago, by people who expected to be replacing them today.'",
         "giverComplete": "'Six. And do not clean the teeth. I want to see the wear.'",
-        "giverInProgress": "'Cogs. Bronze, hand-sized, teeth cut better than anything you have ever held. The yards are full of them and so are the things in the yards.'"
+        "giverInProgress": "'Six drive cogs. Bronze, hand-sized, teeth cut better than anything you have ever held. The yards are full of them and so are the things in the yards.'"
       },
       "sortOrder": 1
     },
@@ -5851,10 +5856,10 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "'Four hundred years of readings,' Vane says, 'and the last hundred are blank. Not missing. <Scraped>. By hand, carefully, from the inside.' He looks up. 'People do not carefully destroy a thing they think is wrong.'",
+        "giverOffer": "'Four hundred years of readings,' Vane says, 'and the last hundred are blank. Not missing. Scraped, by hand, carefully, from the inside. The camp calls them <silenced plates>, as if they did it to themselves.' He looks up. 'People do not carefully destroy a thing they think is wrong.'",
         "turninReady": "He works one under the lamp for a long time. 'It is a position,' he says finally. 'Not a brightness, not a distance. A position, and it is the same on all four, and the dates are ninety years apart.' He sets it down. 'It has not moved.'",
         "giverComplete": "'Four. Bring me the worst ones. The worst ones are the least well scraped.'",
-        "giverInProgress": "'Four plates. Scraped ones. I can read a scraping - there is always something left in the cut.'"
+        "giverInProgress": "'Four silenced plates. I can read a scraping - there is always something left in the cut.'"
       },
       "sortOrder": 2
     },
@@ -5862,7 +5867,7 @@
       "key": "a3-3-what-it-is-watching-for",
       "zoneKey": "azhen.thessivar",
       "name": "What It Is Watching For",
-      "summary": "Take the last reading from the Last Reader.",
+      "summary": "Take the lens blank from the Last Reader's seat.",
       "description": "The one occupied seat on the observation floor has been occupied for four hundred years. Vane wants what is in the housing, and he has stopped pretending he wants it for the catalogue.",
       "giverMobKey": "azhen-instrument-scholar",
       "turninMobKey": "azhen-instrument-scholar",
@@ -5880,10 +5885,10 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "'There is <one seat> taken up there,' Vane says. 'The same one. They took the last reading and then they scraped it off, and then they stayed.' He puts his brush down. 'I would like to know what a person reads and then sits down for four hundred years.'",
+        "giverOffer": "'There is one seat taken up there,' Vane says. 'The same one. They took the last reading off <the lens blank> and then they scraped it clean, and then they stayed.' He puts his brush down. 'I would like to know what a person reads and then sits down for four hundred years.'",
         "turninReady": "Vane holds the blank up and does not need a lamp for it. 'The Regard is not attention,' he says quietly. 'We have all been saying attention. It is recognition. It is not watching the Reaches. It is watching for something, it has been watching for the same something since before Azhen, and it has never once had to look away and find it again.' He sits down. 'Nemhal is closer to the edge than we are. Go and ask them what it looks like from there.'",
         "giverComplete": "'They are still sitting there. They will be sitting there tomorrow.'",
-        "giverInProgress": "'The housing, at the top. Take the blank from the seat. Do not look through the eyepiece on the way past. I am asking, not instructing.'"
+        "giverInProgress": "'The housing, at the top. Take the lens blank from the seat. Do not look through the eyepiece on the way past. I am asking, not instructing.'"
       },
       "sortOrder": 3
     },
@@ -5912,10 +5917,10 @@
         "Adept"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the stormrod>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The stormrod I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 13
     },
@@ -5944,10 +5949,10 @@
         "Hallow"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the hearthcenser>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The hearthcenser I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 13
     },
@@ -5976,7 +5981,7 @@
         "Temper"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the wraps>. They have been through something and I can do more with them now than I could before.'",
         "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
         "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
@@ -6008,10 +6013,10 @@
         "Warden"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the oathmaul>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The oathmaul I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 13
     }

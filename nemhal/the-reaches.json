@@ -1,6 +1,6 @@
 {
   "formatVersion": 18,
-  "exportedAt": "2026-08-22T22:19:03.607919+00:00",
+  "exportedAt": "2026-09-11T00:09:16.9732166+00:00",
   "scope": {
     "kind": "world",
     "key": "nemhal"
@@ -11,7 +11,9 @@
       "name": "Nemhal",
       "description": "The failing Reach. Its edges are gone and going, and the reason is lying in Keshvaun where anyone can walk up to it.",
       "sortOrder": 4,
-      "flags": {},
+      "flags": {
+        "climate": "blighted"
+      },
       "multipliers": {
         "strength": 4.1,
         "health": 1,
@@ -31,7 +33,8 @@
       "minLevel": 42,
       "maxLevel": 46,
       "flags": {
-        "dark": true
+        "dark": true,
+        "indoors": true
       },
       "multipliers": {
         "strength": 1.12,
@@ -443,7 +446,9 @@
       "zoneKey": "nemhal.keshvaun",
       "title": "The Lamp Court",
       "description": "A court of unlit lamps on posts, a hundred of them in a grid, each filled.\n\nWhen she wakes they are lit. That is the whole rule and it has never been amended.",
-      "flags": {},
+      "flags": {
+        "indoors": false
+      },
       "grid": [
         "┌───────────────────┐",
         "│...................│",
@@ -550,7 +555,9 @@
       "zoneKey": "nemhal.keshvaun",
       "title": "The Outer Court",
       "description": "A court open to a sky that is the wrong colour, ringed with cloister on three sides and standing on the fourth side at the edge of everything.\n\nThe cloister is swept. The fourth side has no rail and needs none: nobody here goes near it.\n\nThere is nothing to see. The rim of Nemhal is where the land has already gone, and what is past it is not distance - it is the absence of the question.",
-      "flags": {},
+      "flags": {
+        "indoors": false
+      },
       "grid": [
         "░░░░░░░░░░░░░░░░░░░░░",
         "░░░░░░░░░░░░░░░░░░░░░",
@@ -884,7 +891,9 @@
       "zoneKey": "nemhal.olmenneth",
       "title": "The First Station",
       "description": "A roofed halt at the roadside with benches, a water trough, and a lamp bracket. The lamp is in the bracket and it is not lit.\n\nThe oil is fresh.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "┌─────────░░────────┐",
         "│..░....░......░..░.│",
@@ -1244,7 +1253,9 @@
       "zoneKey": "nemhal.olmenneth",
       "title": "The Oil Press",
       "description": "A press, a vat, and the smell of clean oil. It runs. There is no crop in Nemhal and it runs.\n\nNobody has asked where the oil comes from because everybody has decided not to.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "┌───────────────────┐",
         "│...................│",
@@ -1290,7 +1301,9 @@
       "zoneKey": "nemhal.olmenneth",
       "title": "The Plaster Store",
       "description": "Lime, sand, water, and a board with a fresh patch drying on it.\n\nThe patch has a hand in it. It is this morning's.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "┌───────────────────┐",
         "│...................│",
@@ -1548,7 +1561,9 @@
       "zoneKey": "nemhal.the-hold",
       "title": "The Chapel Corner",
       "description": "A corner of the long room with a rail across it, a lamp, and no image of anybody. The Hold does not keep Nemhalla's office and does not say why.\n\nSomebody has put fresh water in the bowl regardless.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "┌───────────────────┐",
         "│...................│",
@@ -1789,7 +1804,9 @@
       "zoneKey": "nemhal.the-hold",
       "title": "The Sally Port",
       "description": "A low arch through the wall with two doors and a drop-bar between them, opening on the road east into Vurrach.\n\nThe bar is lifted. Nobody has dropped it in living memory and nobody has removed it either.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "┌───────────────────┐",
         "│...................│",
@@ -2106,7 +2123,9 @@
       "zoneKey": "nemhal.vurrach",
       "title": "The Drying Shed",
       "description": "Racks and racks of them, all empty, all dusted, in a shed with the door wedged open for the airflow.\n\nThe wedge is a folded page of the office.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
         "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"▓\"\"\"\"",
@@ -2630,7 +2649,9 @@
       "zoneKey": "nemhal.vurrach",
       "title": "The Well House",
       "description": "A roofed well with a bucket on a chain and the chain oiled.\n\nThe water is good. Somebody draws it.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
         "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
@@ -5965,10 +5986,10 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "Aveth does not soften it. 'Every one of them is on a rota, and every one of them has a <token>. I want ten. You will have to take them, and they will not understand why, because nobody has told them anything.'",
+        "giverOffer": "Aveth does not soften it. 'Every one of them is on a rota, and every one of them has a <vigil token>. I want ten. You will have to take them, and they will not understand why, because nobody has told them anything.'",
         "turninReady": "She lays them in a line and counts under her breath. 'Two hundred years of issue and the numbers are still climbing,' she says. 'They are not leftovers. They are being replaced.'",
         "giverComplete": "'Ten. And do not apologise to them. It does not reach.'",
-        "giverInProgress": "'Ten tokens. Carved bone. They wear them under everything, which tells you what they think of them.'"
+        "giverInProgress": "'Ten vigil tokens. Carved bone. They wear them under everything, which tells you what they think of them.'"
       },
       "sortOrder": 1
     },
@@ -6055,10 +6076,10 @@
         "Adept"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the stormrod>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The stormrod I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 14
     },
@@ -6087,10 +6108,10 @@
         "Hallow"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the hearthcenser>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The hearthcenser I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 14
     },
@@ -6119,7 +6140,7 @@
         "Temper"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the wraps>. They have been through something and I can do more with them now than I could before.'",
         "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
         "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
@@ -6151,10 +6172,10 @@
         "Warden"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the oathmaul>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The oathmaul I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 14
     }

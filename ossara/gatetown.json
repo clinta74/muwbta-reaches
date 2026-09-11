@@ -1,6 +1,6 @@
 {
   "formatVersion": 18,
-  "exportedAt": "2026-08-22T22:19:06.0664278+00:00",
+  "exportedAt": "2026-09-11T00:38:56.0536439+00:00",
   "scope": {
     "kind": "zone",
     "key": "ossara.gatetown"
@@ -560,7 +560,9 @@
       "zoneKey": "ossara.gatetown",
       "title": "Wick's Yard",
       "description": "Less a shop than a roofed yard with a counter across the front of it, stacked to head height with crates, coils, sacks, and at least one thing that is definitely a boat.\n\nThere is no order to any of it that a customer can see. There is an order to it.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "┌───────────────────┐",
         "│...................│",
@@ -1462,29 +1464,29 @@
             "minSeconds": 200
           }
         ],
+        "topics": [
+          {
+            "text": "'Khaldra's. Kept, not lit - lighting a fire is easy, keeping one is the job. It has not been out in nineteen years and it will not be out tonight.'",
+            "keyword": "fire"
+          },
+          {
+            "text": "'The Kept Fire. Bread, hearth, a roof that does not leak. Nothing mystical about her and everything necessary. Her clergy are mostly cooks. I am one.'",
+            "keyword": "khaldra"
+          },
+          {
+            "text": "'A woman took a coal from this fire the first winter I had it. Paid in a knife I still use. She has not aged a day in nineteen years and she has never come back for the coal. If you meet a smith with no forge, that is her.'",
+            "keyword": "ember",
+            "requiresQuest": "a1-3-a-gate-does-not-break"
+          },
+          {
+            "text": "'I do not count them. I know where they are, which is a different thing and takes less arithmetic.' He glances at the shelf without meaning to. 'Fourteen. That is not counting. That is looking.'",
+            "keyword": "count"
+          }
+        ],
         "wanders": false,
         "greeting": [
           "'Sit where you like. The near side is warmer and everyone chooses the far.'",
           "'Nineteen years I have kept this <fire> in. Ask me in twenty and it will be twenty.'"
-        ],
-        "topics": [
-          {
-            "keyword": "fire",
-            "text": "'Khaldra's. Kept, not lit - lighting a fire is easy, keeping one is the job. It has not been out in nineteen years and it will not be out tonight.'"
-          },
-          {
-            "keyword": "khaldra",
-            "text": "'The Kept Fire. Bread, hearth, a roof that does not leak. Nothing mystical about her and everything necessary. Her clergy are mostly cooks. I am one.'"
-          },
-          {
-            "keyword": "ember",
-            "text": "'A woman took a coal from this fire the first winter I had it. Paid in a knife I still use. She has not aged a day in nineteen years and she has never come back for the coal. If you meet a smith with no forge, that is her.'",
-            "requiresQuest": "a1-3-a-gate-does-not-break"
-          },
-          {
-            "keyword": "cups",
-            "text": "'I do not count them. I know where they are, which is a different thing and takes less arithmetic.' He glances at the shelf without meaning to. 'Fourteen. That is not counting. That is looking.'"
-          }
         ]
       },
       "loot": [],
@@ -3665,7 +3667,7 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "Corun fills a cup without being asked and sets it on the end of the long table. 'That one is Ossa's. He will not leave the rope and I will not leave the fire, so one of us has to be you.' He pushes the <hot cup> an inch closer. 'Walk like it is hot.'",
+        "giverOffer": "Corun fills a cup without being asked and sets it on the end of the long table. 'That one is Ossa's. He will not leave the rope and I will not leave the fire, so one of us has to be you.' He pushes the <filled cup> an inch closer. 'Walk like it is hot.'",
         "turninReady": "Ossa takes it in both hands, drinks a third of it standing, then sits down on the nailed stool to do the rest properly. 'He does this,' he says. 'I have told him I can walk up the hill myself.' He does not look like a man about to walk up a hill.",
         "giverComplete": "'He got it hot, then. Good. Cold is an insult and he would drink it anyway, which is worse.'",
         "giverInProgress": "'Still on the table, is it. It does not improve with standing there.'"

@@ -1,6 +1,6 @@
 {
   "formatVersion": 18,
-  "exportedAt": "2026-08-22T22:18:59.9822151+00:00",
+  "exportedAt": "2026-09-11T00:38:56.0536439+00:00",
   "scope": {
     "kind": "world",
     "key": "ossara"
@@ -1237,7 +1237,9 @@
       "zoneKey": "ossara.gatetown",
       "title": "Wick's Yard",
       "description": "Less a shop than a roofed yard with a counter across the front of it, stacked to head height with crates, coils, sacks, and at least one thing that is definitely a boat.\n\nThere is no order to any of it that a customer can see. There is an order to it.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "┌───────────────────┐",
         "│...................│",
@@ -3497,29 +3499,29 @@
             "minSeconds": 200
           }
         ],
+        "topics": [
+          {
+            "text": "'Khaldra's. Kept, not lit - lighting a fire is easy, keeping one is the job. It has not been out in nineteen years and it will not be out tonight.'",
+            "keyword": "fire"
+          },
+          {
+            "text": "'The Kept Fire. Bread, hearth, a roof that does not leak. Nothing mystical about her and everything necessary. Her clergy are mostly cooks. I am one.'",
+            "keyword": "khaldra"
+          },
+          {
+            "text": "'A woman took a coal from this fire the first winter I had it. Paid in a knife I still use. She has not aged a day in nineteen years and she has never come back for the coal. If you meet a smith with no forge, that is her.'",
+            "keyword": "ember",
+            "requiresQuest": "a1-3-a-gate-does-not-break"
+          },
+          {
+            "text": "'I do not count them. I know where they are, which is a different thing and takes less arithmetic.' He glances at the shelf without meaning to. 'Fourteen. That is not counting. That is looking.'",
+            "keyword": "count"
+          }
+        ],
         "wanders": false,
         "greeting": [
           "'Sit where you like. The near side is warmer and everyone chooses the far.'",
           "'Nineteen years I have kept this <fire> in. Ask me in twenty and it will be twenty.'"
-        ],
-        "topics": [
-          {
-            "keyword": "fire",
-            "text": "'Khaldra's. Kept, not lit - lighting a fire is easy, keeping one is the job. It has not been out in nineteen years and it will not be out tonight.'"
-          },
-          {
-            "keyword": "khaldra",
-            "text": "'The Kept Fire. Bread, hearth, a roof that does not leak. Nothing mystical about her and everything necessary. Her clergy are mostly cooks. I am one.'"
-          },
-          {
-            "keyword": "ember",
-            "text": "'A woman took a coal from this fire the first winter I had it. Paid in a knife I still use. She has not aged a day in nineteen years and she has never come back for the coal. If you meet a smith with no forge, that is her.'",
-            "requiresQuest": "a1-3-a-gate-does-not-break"
-          },
-          {
-            "keyword": "cups",
-            "text": "'I do not count them. I know where they are, which is a different thing and takes less arithmetic.' He glances at the shelf without meaning to. 'Fourteen. That is not counting. That is looking.'"
-          }
         ]
       },
       "loot": [],
@@ -3894,6 +3896,23 @@
       },
       "baseXp": 80,
       "baseGold": 12,
+      "behavior": {},
+      "loot": [],
+      "attacks": []
+    },
+    {
+      "key": "mouse",
+      "name": "a mouse",
+      "description": "Brown, quick, and better fed than anything that size has a right to be. It would much rather be back in the wall.",
+      "icon": "m",
+      "level": 1,
+      "wanderIntervalPulses": 24,
+      "baseStats": {
+        "damage": "1-2",
+        "health": 8
+      },
+      "baseXp": 10,
+      "baseGold": 1,
       "behavior": {},
       "loot": [],
       "attacks": []
@@ -5977,10 +5996,9 @@
       "templateKey": "rat",
       "templateKind": "Mob",
       "roomKeys": [
-        "ossara.the-terraces.the-root-cellar",
         "ossara.the-terraces.the-cellar-mouth"
       ],
-      "targetCount": 4,
+      "targetCount": 3,
       "respawnSeconds": 60,
       "wanders": false,
       "fightsAtLevel": null,
@@ -6190,6 +6208,36 @@
       "wanders": false,
       "fightsAtLevel": null,
       "nameModifier": null
+    },
+    {
+      "id": "01a08dc5-c388-7827-ac05-c76c136527aa",
+      "zoneKey": "ossara.the-terraces",
+      "templateKey": "mouse",
+      "templateKind": "Mob",
+      "roomKeys": [
+        "ossara.the-terraces.the-high-shelf",
+        "ossara.the-terraces.the-drying-frames",
+        "ossara.the-terraces.the-fold-track"
+      ],
+      "targetCount": 5,
+      "respawnSeconds": 60,
+      "wanders": false,
+      "fightsAtLevel": null,
+      "nameModifier": "field"
+    },
+    {
+      "id": "01a08dc5-d196-7715-b467-8f5f87faf93b",
+      "zoneKey": "ossara.the-terraces",
+      "templateKey": "rat",
+      "templateKind": "Mob",
+      "roomKeys": [
+        "ossara.the-terraces.the-root-cellar"
+      ],
+      "targetCount": 2,
+      "respawnSeconds": 60,
+      "wanders": false,
+      "fightsAtLevel": null,
+      "nameModifier": "barn"
     }
   ],
   "quests": [
@@ -6213,10 +6261,10 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "Pell has a map with more crossings-out than lines. '<The stones> came down and the gate stopped. In that order. I am not saying it is the reason. I am saying nobody has checked.'",
+        "giverOffer": "Pell has a map with more crossings-out than lines. 'The <road markers> came down and the gate stopped. In that order. I am not saying it is the reason. I am saying nobody has checked.'",
         "turninReady": "He turns one over twice. 'Right. So they are cut on both faces. Nobody mentioned that. Take a rest, and then would you mind terribly—'",
         "giverComplete": "'Still up there, are they? They are not getting lighter.'",
-        "giverInProgress": "'Four. Any four. They all weigh the same amount of nothing to Ilvaro and rather a lot to you, I imagine.'"
+        "giverInProgress": "'Four fallen markers. Any four. They all weigh the same amount of nothing to Ilvaro and rather a lot to you, I imagine.'"
       },
       "sortOrder": 1
     },
@@ -6242,10 +6290,10 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "'They are holding things,' Pell says, and stops, and starts again. 'Somebody is missing those <things>. That is all I am confident about.'",
+        "giverOffer": "'They are holding things,' Pell says, and stops, and starts again. 'Keepsakes. Somebody is missing those <keepsakes>, and that is all I am confident about.'",
         "turninReady": "Adda lays them out on the blank stone without hurrying. 'These went first,' she says. 'The stones went second. The gate went third. He has the order backwards and the right idea.'",
         "giverComplete": "'Six. And do not sort them. I will sort them.'",
-        "giverInProgress": "'Six should do. Take them to the Keeper, not to me. She will know what they are. I will only guess and be wrong in front of you.'"
+        "giverInProgress": "'Six keepsakes should do. Take them to the Keeper, not to me. She will know what they are. I will only guess and be wrong in front of you.'"
       },
       "sortOrder": 2
     },
@@ -6271,7 +6319,7 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "Adda does not look up. '<Last stone> still has its piece. The big one is standing on it. I am seventy and I am not going to be the one to ask it to move.'",
+        "giverOffer": "Adda does not look up. 'The last stone still has <its shard>. The big one is standing on it. I am seventy and I am not going to be the one to ask it to move.'",
         "turninReady": "She turns the shard so the smooth broken face catches the light. 'A gate does not break,' she says. 'It forgets. Somebody stopped saying the name of the other side and it stopped being able to find it.' She presses the shard into your hand. 'It knows you now. Go and see what is left of Grask, and mind what looks back.'",
         "giverComplete": "'Still standing there, is it. Yes. It does that.'",
         "giverInProgress": "'One shard. Out past the ring, where the ground gives. Mind your footing and mind the thing that is already there.'"
@@ -6282,7 +6330,7 @@
       "key": "e1-adept",
       "zoneKey": "ossara.the-rimwalk",
       "name": "The Stormrod, unproven",
-      "summary": "Have Vesh reforge your stormrod.",
+      "summary": "Bring Vesh three banked embers for your stormrod.",
       "description": "Vesh works for materials and not for coin, and she has decided what she is making for you before you asked.",
       "giverMobKey": "epic-smith-vesh",
       "turninMobKey": "epic-smith-vesh",
@@ -6303,7 +6351,7 @@
       ],
       "dialogue": {
         "giverOffer": "Vesh looks at you rather than at your hands. 'You are a Adept. I know what a Adept needs and I have known for a long time.' She sets down a bag. '<Three embers>. The big one at the rim has them - it has been carrying them longer than I have been walking.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "turninReady": "She works without hurrying and hands it over. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
         "giverInProgress": "'Three. They do not go out and they do not warm anything. Bring them.'"
       },
@@ -6313,7 +6361,7 @@
       "key": "e1-hallow",
       "zoneKey": "ossara.the-rimwalk",
       "name": "The Hearthcenser, unproven",
-      "summary": "Have Vesh reforge your hearthcenser.",
+      "summary": "Bring Vesh three banked embers for your hearthcenser.",
       "description": "Vesh works for materials and not for coin, and she has decided what she is making for you before you asked.",
       "giverMobKey": "epic-smith-vesh",
       "turninMobKey": "epic-smith-vesh",
@@ -6334,7 +6382,7 @@
       ],
       "dialogue": {
         "giverOffer": "Vesh looks at you rather than at your hands. 'You are a Hallow. I know what a Hallow needs and I have known for a long time.' She sets down a bag. '<Three embers>. The big one at the rim has them - it has been carrying them longer than I have been walking.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "turninReady": "She works without hurrying and hands it over. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
         "giverInProgress": "'Three. They do not go out and they do not warm anything. Bring them.'"
       },
@@ -6344,7 +6392,7 @@
       "key": "e1-temper",
       "zoneKey": "ossara.the-rimwalk",
       "name": "The Quiet Hands, unproven",
-      "summary": "Have Vesh remake your quiet wraps.",
+      "summary": "Bring Vesh three banked embers for your quiet wraps.",
       "description": "Vesh works for materials and not for coin, and she has decided what she is making for you before you asked.",
       "giverMobKey": "epic-smith-vesh",
       "turninMobKey": "epic-smith-vesh",
@@ -6375,7 +6423,7 @@
       "key": "e1-warden",
       "zoneKey": "ossara.the-rimwalk",
       "name": "The Oathmaul, unproven",
-      "summary": "Have Vesh reforge your oathmaul.",
+      "summary": "Bring Vesh three banked embers for your oathmaul.",
       "description": "Vesh works for materials and not for coin, and she has decided what she is making for you before you asked.",
       "giverMobKey": "epic-smith-vesh",
       "turninMobKey": "epic-smith-vesh",
@@ -6396,7 +6444,7 @@
       ],
       "dialogue": {
         "giverOffer": "Vesh looks at you rather than at your hands. 'You are a Warden. I know what a Warden needs and I have known for a long time.' She sets down a bag. '<Three embers>. The big one at the rim has them - it has been carrying them longer than I have been walking.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "turninReady": "She works without hurrying and hands it over. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
         "giverInProgress": "'Three. They do not go out and they do not warm anything. Bring them.'"
       },
@@ -6422,7 +6470,7 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "Corun fills a cup without being asked and sets it on the end of the long table. 'That one is Ossa's. He will not leave the rope and I will not leave the fire, so one of us has to be you.' He pushes the <hot cup> an inch closer. 'Walk like it is hot.'",
+        "giverOffer": "Corun fills a cup without being asked and sets it on the end of the long table. 'That one is Ossa's. He will not leave the rope and I will not leave the fire, so one of us has to be you.' He pushes the <filled cup> an inch closer. 'Walk like it is hot.'",
         "turninReady": "Ossa takes it in both hands, drinks a third of it standing, then sits down on the nailed stool to do the rest properly. 'He does this,' he says. 'I have told him I can walk up the hill myself.' He does not look like a man about to walk up a hill.",
         "giverComplete": "'He got it hot, then. Good. Cold is an insult and he would drink it anyway, which is worse.'",
         "giverInProgress": "'Still on the table, is it. It does not improve with standing there.'"

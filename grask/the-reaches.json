@@ -1,6 +1,6 @@
 {
   "formatVersion": 18,
-  "exportedAt": "2026-08-22T22:19:01.2011413+00:00",
+  "exportedAt": "2026-09-11T00:09:16.9732166+00:00",
   "scope": {
     "kind": "world",
     "key": "grask"
@@ -11,7 +11,9 @@
       "name": "Grask",
       "description": "A shard opened two generations ago and still being emptied. Ravvan the Wide Mouth keeps it rich; Mhorrek keeps the account.",
       "sortOrder": 2,
-      "flags": {},
+      "flags": {
+        "climate": "coastal"
+      },
       "multipliers": {
         "strength": 1.9,
         "health": 1,
@@ -85,7 +87,8 @@
       "minLevel": 20,
       "maxLevel": 24,
       "flags": {
-        "dark": true
+        "dark": true,
+        "indoors": true
       },
       "multipliers": {
         "strength": 1.26,
@@ -722,7 +725,8 @@
       "title": "The Underdeck",
       "description": "Below the piling yard, on a service walk a foot above the water, where the piles come down and the light does not.\n\nThis is where the things that live under the boardwalks live.",
       "flags": {
-        "dark": true
+        "dark": true,
+        "indoors": true
       },
       "grid": [
         "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
@@ -1775,7 +1779,9 @@
       "zoneKey": "grask.the-landing",
       "title": "The Tally House",
       "description": "A long shed open on the quay side, with three clerks at three desks and a queue that never gets shorter. Everything crossing the gate is weighed, named and written down.\n\nThe ledgers go back to the opening. The early volumes are on a shelf nobody dusts.",
-      "flags": {},
+      "flags": {
+        "indoors": true
+      },
       "grid": [
         "░░░░░░░░░░░░░░░░░░░░░",
         "░░░░░░░░░░░░░░░░░░░░░",
@@ -5911,7 +5917,7 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "Roan checks her lamp. 'There is a room down there with books in it, dry as a bone, four hundred feet under a marsh. Bring me <five pages>. I want to know what is being written and I have stopped being able to go and look.'",
+        "giverOffer": "Roan checks her lamp. 'There is a room down there with books in it, dry as a bone, four hundred feet under a marsh. The deep ledger is one of them. Bring me <five leaves> of it. I want to know what is being written and I have stopped being able to go and look.'",
         "turninReady": "She spreads them out and goes down the columns with a fingernail. 'Wages,' she says. 'Paid weekly. Same names as Vance's tags, and the last entry is this week.' She sits down on a crate. 'Somebody is still settling up. Nobody has been down there to do it.'",
         "giverComplete": "'Five. And mind the rope in the sump. Do not touch the rope in the sump.'",
         "giverInProgress": "'Five leaves. Do not read them on the stair. Read them up here where I can see your face.'"
@@ -5940,10 +5946,10 @@
       "autoStart": false,
       "paths": [],
       "dialogue": {
-        "giverOffer": "'The richest hole in the Reaches and it does not pay a copper,' Roan says. 'You noticed. Everyone notices and nobody says it out loud. That is because <the gold> from the Owing is going somewhere, and it has been going there since before the Landing had a name.'",
+        "giverOffer": "'The richest hole in the Reaches and it does not pay a copper,' Roan says. 'You noticed. Everyone notices and nobody says it out loud. The gold from the Owing is going somewhere, and it has been going there since before the Landing had a name. The Creditor keeps the book, and <the first mark> the crew ever cut is in it.'",
         "turninReady": "Roan turns the wedge over twice and puts it down as though it were hot. 'They opened the gate on credit,' she says. 'Two generations of us eating well on it. Mhorrek is not a punishment, he is an invoice.' She presses the mark into your hand. 'Azhen built the gates. Go and ask them what the terms were, because we plainly did not.'",
         "giverComplete": "'He is still down there. He is not going anywhere. That is rather the point of him.'",
-        "giverInProgress": "'Past the first workings. There is a chamber that nobody cut - you will know it, the walls are gate-stone all the way round. He is in there with the book. Bring me the mark.'"
+        "giverInProgress": "'Past the first workings. There is a chamber that nobody cut - you will know it, the walls are gate-stone all the way round. He is in there with the book. Bring me the first mark.'"
       },
       "sortOrder": 3
     },
@@ -5972,10 +5978,10 @@
         "Adept"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the stormrod>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The stormrod I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 12
     },
@@ -6004,10 +6010,10 @@
         "Hallow"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the hearthcenser>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The hearthcenser I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 12
     },
@@ -6036,7 +6042,7 @@
         "Temper"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the wraps>. They have been through something and I can do more with them now than I could before.'",
         "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
         "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
@@ -6068,10 +6074,10 @@
         "Warden"
       ],
       "dialogue": {
-        "giverOffer": "Vesh holds a hand out without looking up. '<Give it here>. It has been through something and I can do more with it now than I could before.'",
-        "turninReady": "She works without hurrying and hands them back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
+        "giverOffer": "Vesh holds a hand out without looking up. 'Give me <the oathmaul>. It has been through something and I can do more with it now than I could before.'",
+        "turninReady": "She works without hurrying and hands it back. 'Better,' she says. That is the whole of her opinion and it is worth more than it sounds.",
         "giverComplete": "'When it has been through something. Not before.'",
-        "giverInProgress": "'The pair I gave you. I am not making a second set - I am making those again, and better.'"
+        "giverInProgress": "'The oathmaul I gave you. I am not making a second one - I am making that one again, and better.'"
       },
       "sortOrder": 12
     }
