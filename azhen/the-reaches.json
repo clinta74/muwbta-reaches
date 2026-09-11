@@ -1,6 +1,6 @@
 {
   "formatVersion": 19,
-  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
+  "exportedAt": "2026-09-11T01:19:05.3132706+00:00",
   "scope": {
     "kind": "world",
     "key": "azhen"
@@ -2931,28 +2931,6 @@
       "useCooldownPulses": null
     },
     {
-      "key": "bandage-roll",
-      "name": "a roll of clean bandage",
-      "description": "Boiled linen, rolled tight, tied with a scrap of the same. Sold by the roll because nobody needs half of one.",
-      "icon": "+",
-      "slots": [],
-      "isTwoHanded": false,
-      "weight": 100,
-      "baseValue": 9,
-      "baseStats": {},
-      "attackDelayPulses": null,
-      "attackVerb": null,
-      "isQuestItem": false,
-      "isLore": false,
-      "isNoDrop": false,
-      "isLightSource": false,
-      "foodValue": null,
-      "drinkValue": null,
-      "paths": [],
-      "useEffects": [],
-      "useCooldownPulses": null
-    },
-    {
       "key": "epic-adept-2",
       "name": "a tempered stormrod",
       "description": "Bronze wound with wire that stands the hair up on your arm when the weather turns. Folded again with something out of Grask in it, and heavier for the knowing.",
@@ -3268,8 +3246,7 @@
           "azhen-gate-stylus",
           "azhen-counterweight-maul",
           "torch",
-          "rope",
-          "bandage-roll"
+          "rope"
         ],
         "emotes": [
           {
@@ -3284,17 +3261,17 @@
           }
         ],
         "markup": 0.25,
+        "topics": [
+          {
+            "text": "'Buying book, not selling. Nine years of it. Everything that comes out of the halls goes in with a weight beside it, and the weights add up to a number I send back through the gate every month, to people who do not tell me what they want it for. That is the whole trade in Azhen.'",
+            "keyword": "book"
+          }
+        ],
         "wanders": false,
-        "shopkeeper": true,
         "greeting": [
           "'Bring me cogs. I will buy every cog you find and I will not ask. Ask me about the <book> if you want to know why.'"
         ],
-        "topics": [
-          {
-            "keyword": "book",
-            "text": "'Buying book, not selling. Nine years of it. Everything that comes out of the halls goes in with a weight beside it, and the weights add up to a number I send back through the gate every month, to people who do not tell me what they want it for. That is the whole trade in Azhen.'"
-          }
-        ]
+        "shopkeeper": true
       },
       "loot": [],
       "attacks": []

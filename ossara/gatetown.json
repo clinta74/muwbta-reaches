@@ -1,6 +1,6 @@
 {
   "formatVersion": 19,
-  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
+  "exportedAt": "2026-09-11T01:19:05.3132706+00:00",
   "scope": {
     "kind": "zone",
     "key": "ossara.gatetown"
@@ -681,7 +681,7 @@
       "key": "ossara.gatetown.the-provisioner",
       "zoneKey": "ossara.gatetown",
       "title": "The Provisioner's Stall",
-      "description": "The last stall before the road out, which is not an accident. Sacks of meal, strings of onions, hard cheese under a cloth, and bandage rolled by the dozen.\n\nA slate by the scale reads: TWO DAYS OUT — THREE DAYS FOOD. It has been rewritten so many times the slate is going soft.",
+      "description": "The last stall before the road out, which is not an accident. Sacks of meal, strings of onions, hard cheese under a cloth, and a shelf of stoppered bottles, green and amber and clear.\n\nA slate by the scale reads: TWO DAYS OUT — THREE DAYS FOOD. It has been rewritten so many times the slate is going soft.",
       "flags": {},
       "grid": [
         "─────────────────────",
@@ -841,28 +841,6 @@
     }
   ],
   "itemTemplates": [
-    {
-      "key": "bandage-roll",
-      "name": "a roll of clean bandage",
-      "description": "Boiled linen, rolled tight, tied with a scrap of the same. Sold by the roll because nobody needs half of one.",
-      "icon": "+",
-      "slots": [],
-      "isTwoHanded": false,
-      "weight": 100,
-      "baseValue": 9,
-      "baseStats": {},
-      "attackDelayPulses": null,
-      "attackVerb": null,
-      "isQuestItem": false,
-      "isLore": false,
-      "isNoDrop": false,
-      "isLightSource": false,
-      "foodValue": null,
-      "drinkValue": null,
-      "paths": [],
-      "useEffects": [],
-      "useCooldownPulses": null
-    },
     {
       "key": "bread",
       "name": "a loaf of dark bread",
@@ -1558,8 +1536,7 @@
         "sells": [
           "torch",
           "rope",
-          "waterskin",
-          "bandage-roll"
+          "waterskin"
         ],
         "emotes": [
           {
@@ -1705,7 +1682,6 @@
         "sells": [
           "bread",
           "waterskin",
-          "bandage-roll",
           "torch",
           "ossara-green-draught",
           "ossara-hill-tonic",

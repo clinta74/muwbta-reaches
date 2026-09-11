@@ -1,6 +1,6 @@
 {
   "formatVersion": 19,
-  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
+  "exportedAt": "2026-09-11T01:19:05.3132706+00:00",
   "scope": {
     "kind": "world",
     "key": "nemhal"
@@ -2682,28 +2682,6 @@
   ],
   "itemTemplates": [
     {
-      "key": "bandage-roll",
-      "name": "a roll of clean bandage",
-      "description": "Boiled linen, rolled tight, tied with a scrap of the same. Sold by the roll because nobody needs half of one.",
-      "icon": "+",
-      "slots": [],
-      "isTwoHanded": false,
-      "weight": 100,
-      "baseValue": 9,
-      "baseStats": {},
-      "attackDelayPulses": null,
-      "attackVerb": null,
-      "isQuestItem": false,
-      "isLore": false,
-      "isNoDrop": false,
-      "isLightSource": false,
-      "foodValue": null,
-      "drinkValue": null,
-      "paths": [],
-      "useEffects": [],
-      "useCooldownPulses": null
-    },
-    {
       "key": "bread",
       "name": "a loaf of dark bread",
       "description": "Heavy, close-grained, and baked at Khaldra's Hearth like everything else in this town. Keeps four days and admits it.",
@@ -3687,7 +3665,6 @@
           "nemhal-standing-maul",
           "torch",
           "rope",
-          "bandage-roll",
           "bread",
           "waterskin"
         ],
@@ -3704,21 +3681,21 @@
           }
         ],
         "markup": 0.2,
+        "topics": [
+          {
+            "text": "'I do not trade. I ration. Everything on these shelves is priced by how badly the next person through will need it, not by what it cost, because there is no next delivery. There has not been a delivery in two years.'",
+            "keyword": "rations"
+          },
+          {
+            "text": "'The stone on the road, giving the distance to Keshvaun in a measure nobody uses? It has been re-cut. The figure is smaller than it was, and the old figure is still faintly there. Somebody measured that road before there was a road. The survey people in Azhen would know the unit. I only know the distance is shorter.'",
+            "keyword": "milestone"
+          }
+        ],
         "wanders": false,
-        "shopkeeper": true,
         "greeting": [
           "'Take what you need. Write what you took. Somebody will want to know. Ask about the <rations> if you think I am being difficult.'"
         ],
-        "topics": [
-          {
-            "keyword": "rations",
-            "text": "'I do not trade. I ration. Everything on these shelves is priced by how badly the next person through will need it, not by what it cost, because there is no next delivery. There has not been a delivery in two years.'"
-          },
-          {
-            "keyword": "milestone",
-            "text": "'The stone on the road, giving the distance to Keshvaun in a measure nobody uses? It has been re-cut. The figure is smaller than it was, and the old figure is still faintly there. Somebody measured that road before there was a road. The survey people in Azhen would know the unit. I only know the distance is shorter.'"
-          }
-        ]
+        "shopkeeper": true
       },
       "loot": [],
       "attacks": []

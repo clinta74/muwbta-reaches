@@ -1,6 +1,6 @@
 {
   "formatVersion": 19,
-  "exportedAt": "2026-09-11T01:08:28.154594+00:00",
+  "exportedAt": "2026-09-11T01:19:05.3132706+00:00",
   "scope": {
     "kind": "world",
     "key": "grask"
@@ -2366,28 +2366,6 @@
   ],
   "itemTemplates": [
     {
-      "key": "bandage-roll",
-      "name": "a roll of clean bandage",
-      "description": "Boiled linen, rolled tight, tied with a scrap of the same. Sold by the roll because nobody needs half of one.",
-      "icon": "+",
-      "slots": [],
-      "isTwoHanded": false,
-      "weight": 100,
-      "baseValue": 9,
-      "baseStats": {},
-      "attackDelayPulses": null,
-      "attackVerb": null,
-      "isQuestItem": false,
-      "isLore": false,
-      "isNoDrop": false,
-      "isLightSource": false,
-      "foodValue": null,
-      "drinkValue": null,
-      "paths": [],
-      "useEffects": [],
-      "useCooldownPulses": null
-    },
-    {
       "key": "bread",
       "name": "a loaf of dark bread",
       "description": "Heavy, close-grained, and baked at Khaldra's Hearth like everything else in this town. Keeps four days and admits it.",
@@ -3488,8 +3466,7 @@
           "bread",
           "waterskin",
           "torch",
-          "rope",
-          "bandage-roll"
+          "rope"
         ],
         "emotes": [
           {
@@ -3499,17 +3476,17 @@
           }
         ],
         "markup": 0.3,
+        "topics": [
+          {
+            "text": "'The cut is dry and the marsh is not drinkable and the Owing is neither. Three days, in skins, on your back. The people who took two are the reason I say three.'",
+            "keyword": "water"
+          }
+        ],
         "wanders": false,
-        "shopkeeper": true,
         "greeting": [
           "'Three days of water. Not two. I have seen two. Ask about <water> and I will say it again.'"
         ],
-        "topics": [
-          {
-            "keyword": "water",
-            "text": "'The cut is dry and the marsh is not drinkable and the Owing is neither. Three days, in skins, on your back. The people who took two are the reason I say three.'"
-          }
-        ]
+        "shopkeeper": true
       },
       "loot": [],
       "attacks": []
